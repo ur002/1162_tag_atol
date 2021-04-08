@@ -1,4 +1,5 @@
 // формирование тэга 1162, кода маркировки, для отправки в ОФД. 
+ private static  char[] CHARS_TABLES = "0123456789ABCDEF".ToCharArray();
  private static  byte[] BYTES = new byte[128];
 
 string group = "444D";
